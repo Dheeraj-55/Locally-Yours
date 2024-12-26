@@ -15,7 +15,7 @@ export default function Usage_track() {
    const{UpdateCreditUsage,setUpdateUsage}=useContext(UpdateCreditContext);
    const {userSubscription,setUserSubscription}=useContext(UserSubscriptionContext);
    const {totalusage,setTotalUsage}= useContext(TotalUsageContext);
-   const[maxwords,setMaxWords]=useState(10000);
+   const[maxwords,setMaxWords]=useState(1000000);
    useEffect(()=>{
      user&&GetData();
      user&&IsUserSubscribed();
@@ -41,7 +41,7 @@ export default function Usage_track() {
    .where(eq(UserSubscription.email,user?.primaryEmailAddress?.emailAddress))
    if(result){
     setUserSubscription(true);
-    setMaxWords(100000);
+    setMaxWords(1000000);
    }}
   return (
     <div>

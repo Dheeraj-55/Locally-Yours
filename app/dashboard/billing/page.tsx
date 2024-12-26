@@ -74,7 +74,7 @@ export default function Billing() {
               Free<span className="sr-only">Plan</span>
             </h2>
             <p className="mt-2 sm:mt-4">
-              <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">0$</h2>
+              <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">0Rs</h2>
               <span className="text-sm font-medium text-gray-700">/month</span>
             </p>
           </div>
@@ -155,7 +155,7 @@ export default function Billing() {
               Monthly<span className="sr-only">Plan</span>
             </h2>
             <p className="mt-2 sm:mt-4">
-              <strong className="text-3xl font-bold text-gray-900 sm:text-4xl">9.99$</strong>
+              <strong className="text-3xl font-bold text-gray-900 sm:text-4xl">149Rs</strong>
               <span className="text-sm font-medium text-gray-700">/month</span>
             </p>
           </div>

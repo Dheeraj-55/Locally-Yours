@@ -8,7 +8,7 @@ export default function Home() {
       <header className="w-full py-6 bg-white shadow-md">
         <nav className="max-w-7xl mx-auto flex justify-between items-center px-4 sm:px-6 lg:px-8">
           <Image src={'/logo.svg'} alt='logo' width={120} height={100} />
-          <div className="text-2xl font-bold text-gray-800">Bright Idea AI</div>
+          <div className="text-2xl font-bold text-gray-800">LocallyYours AI</div>
         </nav>
       </header>
 
@@ -17,7 +17,7 @@ export default function Home() {
     
           <div className="mt-5 max-w-2xl mx-auto text-center">
             <h1 className="block font-bold text-gray-800 text-4xl md:text-5xl lg:text-6xl dark:text-neutral-200">
-              BrightIdea AI 
+              LocallyYours AI 
               <span className="bg-clip-text bg-gradient-to-tl from-blue-600 to-violet-600 text-transparent"> Generator</span>
             </h1>
           </div>
